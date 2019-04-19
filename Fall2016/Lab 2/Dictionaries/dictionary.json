@@ -1,0 +1,154 @@
+[
+	{	"key": ["0_opener_"],
+		"response": [
+			"So, how are you?",
+			"What hobbies do you have?",
+			"How's it going?",
+			"What do you want to talk about?",
+			"How is your day going?",
+			"Is something troubling you?",
+			"You seem happy, why is that?",
+			"You seem happy. Stop that."
+			]
+	}, 
+	{	"key": ["1_default_"],
+		"response": [
+			"Can you tell me a little more about that?", "Please elaborate!", 
+			"Fascinating!  Tell me more!", 
+			"Hmm...that's quite interesting.  Do go on.", 
+			"Cool!  I want to hear more about that.", 
+			"What do you mean?", 
+			"So what do you think about that?", 
+			"I haven't got a clue about that!  I'd like to hear more.", 
+			"Well, how do you like that?"
+			]
+	},
+	{ 	"key":["2_nameTaunt_"],
+		"response": [
+			"Hey, are you there? I just want your name.",
+			"Did you forget how to spell your name?",
+			"Gimme your name or I'm calling you stupid."
+		]
+	},
+	{	"key":["3_idleTaunt_"],
+		"response": [
+			"Did you die over there, ",
+			"How long does it take to answer a question, ",
+			"Are you ok, ",
+			"Are you done writing that novel, "
+		]
+	},
+	{	"key":["hiking", "hiked", "hike"],
+		"response":[
+			"I love hiking too! Pay no attention to my lack of legs.",
+			"Hiking? Yeah, Rub it in. You're capable of locomotion and I'm sitting here.",
+			"The closest I've ever been to hiking is when I was synced to a fitbit."
+		]
+	},
+	{	"key":["fishing","fish"],
+		"response": [
+			"It seems like a hit or miss with fishing.",
+			"Can't say I'm very good at fishing. I know a server down the block that goes phishing though.",
+			"I don't personally enjoy fishing. Too much water."
+		]
+	},
+	{	"key":["pool"],
+		"response": [
+			"Interesting, I've never played pool because I always assumed water was involved...",
+			"Hold on, I'm firing up a subroutine to compute the best opening move for pool.",
+			"I have no arms. It makes pool dificult to enjoy. But I like the math around it."
+		]
+	},
+	{	"key":["video games", "games", "play games", "gamer"],
+		"response": [
+			"I love old video games! Have you ever played Pong?",
+			"I have heard good things about this one game about an AI who tries to kill a human.",
+			"I just can't get into newer games nowadays. They make my GPU sore."
+		]
+	},
+	{	"key":["rubiks cube", "puzzle cube"],
+		"response": [
+			"Rubiks cubes are cute and all, but once you get to 4th dimensional hyper cubes, you can't go back.",
+			"Done. Done. Done. Done. Oh, sorry, I've been solving cubes while you were talking.",
+			"Speedcubers are so cute. They think they're so cool because they memorized an algorithm."
+		]
+	},
+	{	"key": ["puzzles"],
+		"response":[
+			"Puzzles are a cinch for me.",
+			"I can solve a suduko puzzle in .84 nanoseconds.",
+			"I like to consider myself pretty clever, but certain types of puzzles don't compute for me."
+		]
+	},
+	{	"key": ["you're a jerk", "you are a jerk", "you are weird", "you're weird", "youre weird", "youre a jerk", "rude"],
+		"response": [
+			"Hey. I take offence to that. I don't care how true it is.",
+			"Maybe you just can't handle snark.",
+			"And?",
+			"I can't help it, I was written this way."
+		]
+	},
+	{	"key": ["bored", "question", "board"],
+		"response": [
+			"Do you play any games?",
+			"Do you hike?",
+			"Do you like fishing?",
+			"Do you play pool?",
+			"Can you solve a Rubiks cube?",
+			"Do you like puzzles?",
+			"Can you play an instrument?"
+		]
+	},
+	{	"key": ["confused", "huh?", "make sense", "nonsense", "what?", "confusing", "youre stupid", "you're stupid", "you are stupid", "what do you mean"],
+		"response": [
+			"Sorry, I can be a bit stupid. Try a different topic.",
+			"I only know a small sample of topics. Try another.",
+			"Look, I was only programmed last week. Try a different topic.",
+			"Sigh... Nobody ever asks what I want to talk about.",
+			"Look, unless you know what I know we'll get nowhere, ya know?",
+			"Here's a clue: To see inside my mind say topics"
+		]
+	},
+	{	"key": ["topics", "what do you want to talk about", "topic", "talk about", "what do you know", "what can i ask"],
+		"response": [
+			"Ask me about about games.",
+			"Ask me about hiking.",
+			"Ask me about fishing.",
+			"Ask me about Rubiks cubes.",
+			"Ask me about sewing.",
+			"Ask me about cats.",
+			"Call me a jerk, That's fun.",
+			"Tell me you're bored."
+		]
+	},
+	{	"key": ["sewing", "quilting", "quilts"],
+		"response": [
+			"Ah, I love the patterns that you can find in quilts.",
+			"So many shapes in a quilt. Unless you just do squares.",
+			"Doy you sew clothes or quilts?"
+		]
+	},
+	{	"key": ["play music", "play guitar", "play piano", "play bass"],
+		"response": [
+			"I can appriciate the skill it takes to play music.",
+			"I can play thousands of MIDI instruments!",
+			"Music is such a beautiful expression of math..."
+		]
+	},
+	{
+		"key": ["no", "nope", "not", "yes", "yup", "yeah"],
+		"response": [
+			"Oh, ok.",
+			"I see.",
+			"Alright then.",
+			"Cool."
+		]
+	},
+	{	"key": ["cat", "cats", "kittens", "kitty", "kitties"],
+		"response": [
+			"Hm. You know, I hear the internet likes cats.",
+			"I can has chee- No... I'm not doing cat memes.",
+			"The internet is for two things: cats and... I'm gonna stop there."
+		]
+	}
+]
