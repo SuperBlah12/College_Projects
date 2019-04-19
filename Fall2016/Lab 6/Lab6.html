@@ -1,0 +1,67 @@
+<html>
+<style>
+	table, th, td {
+		border: 1px solid black;
+	}
+</style>
+<script src="./Lab6.js" type="text/javascript"></script>
+<body>
+<h2>Weather</h2>
+<p>The average temperature is <avg id="avg"></avg> degrees Farenheit</p>
+<p>The hottest city is <hot id="hot"></hot>.</p>
+<p>The nicest city is <nice id="nice"></nice>.</p>
+<table>
+	<tr>
+		<th>City</th>
+		<th>Last Updated</th>
+		<th>Temperature</th>
+		<th>Humidity</th>
+		<th>Wind Speed</th>
+		<th>Conditions</th>
+	</tr>
+	<tr>
+		<td>Phoenix</td>
+		<td id="phxTime"></td>
+		<td id="phxTemp"></td>
+		<td id="phxHumi"></td>
+		<td id="phxWind"></td>
+		<td id="phxCond"></td>
+		<td><button onclick="forecast('Phoenix')">Forecast</td>
+	</tr>
+	<tr>
+		<td>Post Falls</td>
+		<td id="pflTime"></td>
+		<td id="pflTemp"></td>
+		<td id="pflHumi"></td>
+		<td id="pflWind"></td>
+		<td id="pflCond"></td>
+		<td><button onclick="forecast('Post Falls')">Forecast</td>
+	</tr>
+	<tr>
+		<td id="3rdName"></td>
+		<td id="3rdTime"></td>
+		<td id="3rdTemp"></td>
+		<td id="3rdHumi"></td>
+		<td id="3rdWind"></td>
+		<td id="3rdCond"></td>
+		<td><button onclick="forecast(city.value)">Forecast</td>
+	</tr>
+</table>
+<br>
+Select a city:
+<select onchange="populateTables(this.value)" id="city">
+  <option value="London">London</option>
+  <option value="Dallol">Dallol</option> <!--Google's answer to "Hottest City"-->
+  <option value="Paris">Paris</option>
+  <option value="Redondo Beach">Redondo Beach</option>
+  <option value="Yakutsk">Yakutsk</option> <!--Google's answer to "Coldest City"-->
+</select>
+<br>
+<button onclick="populateTables(city.value)">Refresh</button>
+<br>
+<br>
+<forecast id="forecast">
+	
+</forecast>
+</body>
+</html>
