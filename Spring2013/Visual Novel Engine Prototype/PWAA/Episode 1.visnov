@@ -1,0 +1,238 @@
+==|Phoenix Wright:AA|Copyright Capcom| |0
+==|TextWright made by|SuperSoft12 |a Tyler Cole game|38
+==|Phoenix Wright:|Ace Attorney| |76
+==||The First Turnabout||114
+==|*gasp*...gasp*...| | |190
+==|Dammit! ...Why me?| | |228
+==|I can't get caught...|Not like this!| |152
+==|I-I've gotta find someone|to pin this on...| |266
+==|Someone like... him!| | |304
+==|I'll make it look like|HE did it!| |342
+==|August 3, 9:47 AM|District Court|Defendant Lobby No. 2|152
+[Phoenix]|(Boy am I nervous!)| | |380
+[Mia]|Wright!| | |380
+[Phoenix]|Oh, h-hiya, Chief.| | |418
+[Mia]|Whew,|I'm glad I made it on time.| |418
+[Mia]|Well, I have to say Phoenix,|I'm impressed!| |418
+[Mia]|Not everyone takes on a|murder trial right off|the bat like this.|418
+[Mia]|It says a lot about|you... and your client as well.| |418
+[Phoenix]|Um... thanks.| | |418
+[Phoenix]|Actually, it's because|I owe him a favor.| |418
+[Mia]|A favor?| | |456
+[Mia]|You mean, you knew the|defendant before this case?| |456
+[Phoenix]|Yes.| | |456
+[Phoenix]|Actually, I kind of owe|my current job to him.| |456
+[Phoenix]|He's one of the reasons|I became an attorney.| |456
+[Mia]|Well, that's news to me!| | |418
+[Phoenix]|I want to help him out|any way I can!| |418
+[Phoenix]|I just... really want to help|him, I owe him that much.| |418
+[???]|(It's over!)| | |456
+[???]|(My life, everything,|it's all over!)| |456
+[Mia]|...| | |456
+[Mia]|Isn't that your client|screaming over there?| |456
+[Phoenix]|Yeah... that's him.| | |418
+[???]|(Death! Despair! Ohhhh!)| | |418
+[???]|(I'm gonna do it,|I'm gonna die!!!)| |456
+[Mia]|It sounds like|he wants to die...| |456
+[Phoenix]|Um, yeah. *sigh*| | |418
+[Butz]|Nick!!!| | |494
+[Phoenix]|Hey.|Hey there, Larry.| |494
+[Butz]|Dude, I'm so guilty!!|Tell them I'm guilty!!!| |532
+[Butz]|Gimme the death sentence!|I ain't afraid to die!| |532
+[Phoenix]|What!?|What's wrong, Larry?| |532
+[Butz]|Oh, it's all over...|I... I'm finished. Finished!| |494
+[Butz]|I can't live in a world|without her! I can't!| |494
+[Butz]|Who... who took her away|from me, Nick? Who did this!?| |494
+[Butz]|Aww, Nick, ya gotta tell me!|Who took my baby away!?| |494
+[Phoenix]|(Hmm... The person responsible|for your girlfriend's death?)| |494
+[Phoenix]|(The newspapers say|it was you...)| |494
+[Phoenix]|My name is Phoenix Wright.|||152
+[Phoenix]|Here's the story:|||152
+[Phoenix]|My first case is|a fairly simple one.||152
+[Phoenix]|A young woman was killed|in her apartment.||228
+[Phoenix]|The guy they arrested was|the unlucky sap dating her:||228
+[Phoenix]|Larry Butz... my best|friend since grade school.||532
+[Phoenix]|Our school had a saying:|"When something smells,|it's usually the Butz."|532
+[Phoenix]|In the 23 years I've known|him, it's usually been true.||494
+[Phoenix]|He has a knack for getting|himself in trouble.||494
+[Phoenix]|One thing I can say though:|It's usually not his fault.|He just has terrible luck.|494
+[Phoenix]|But I know better than anyone,|that he's a good guy at heart.||152
+[Phoenix]|That and I owe him one.|Which is why I took the|case... to clear his name.|152
+[Phoenix]|And that's just what I'm|going to do!||152
+==| | | |152
+==|August 3, 10:00 AM|District Court|Courtroom No. 2|152
+==||||570
+==|*BANG*|*BANG*|*BANG*|684
+[Judge]|The court is now in session for|the trial of Mr. Larry Butz.| |608
+[Payne]|The prosecution is ready,|Your Honor.| |722
+[Phoenix]|The, um, defense is ready,|Your Honor.||646
+[Judge]|Ahem.|||608
+[Judge]|Mr. Wright?|||608
+[Judge]|This is your first trial,|is it not?||608
+[Phoenix]|Y-Yes, Your Honor.|I'm, um, a little nervous.||646
+[Judge]|Your conduct during this|trial will decide the fate|of your client.|608
+[Judge]|Murder is a serious charge.|For your client's sake, I hope|you can control your nerves.|608
+[Phoenix]|Thank... thank you, Your Honor.|||646
+[Judge]|...|||608
+[Judge]|Mr. Wright, given the|circumstances...||608
+[Judge]|I think we should have a test|to ascertain your readiness.||608
+[Phoenix]|Yes, Your Honor.|||646
+[Phoenix]|(Gulp... Hands shaking...|Eyesight... fading...)||798
+[Judge]|This test will consist of a|few simple questions. Answer|them clearly and concisely.|608
+[Tyler]|This is where I must butt in.|||38
+[Tyler]|Up to this point, everything you've|seen has been pretty accurate|to the original game.|38
+[Tyler]|Unfortunately, You are now at a point|where not having the game finished|may hinder your enjoyment.|38
+[Tyler]|Normally you'd have a "Court Record"|showing all the evidence you have found.||38
+[Tyler]|You don't have that...|||38
+[Tyler]|Sorry.|||38
+[Tyler]|If you were following along you might know MOST|of the answers to the following questions.|But not all.|38
+[Tyler]|So I'm gonna give you the answers.|That way, you can do without the court record.||38
+[Tyler]|Defendant: Larry Butz|Victim: Cindy Stone|Cause of Death: Blunt Object|38
+[Tyler]|ON WITH THE SHOW!|||38
+[Judge]|Please state the name of|the defendant in this case.||608
+QUESTION
+2|1|3
+1.Phoenix Wright|2.Larry Butz|3.Mia Fey|608
+What is the Defendant's Name?
+99|101|102|109|110|118
+true
+[Phoenix]|The defendant? Well, that's|Larry Butz, Your Honor. | |646
+[Judge]|Correct.| | |608
+[Judge]|Just keep your wits about| you and you'll do fine.| |608
+[Phoenix]|Um... the defendant...|is me, right?||646
+[Mia]|Wright! Have you completely|lost your mind? Focus!||760
+[Mia]|The defendant is the|person on trial!||760
+[Mia]|You're his lawyer!| ||760
+[Phoenix]|Um, er, eh?|Oh yeah, right! Eh heh heh.| |760
+[Mia]|This is no laughing matter!| | |760
+[Mia]|You did pass the bar,|didn't you?| |760
+[Judge]|Sorry, I couldn't hear your|answer. I'll ask once more:| |608
+[Phoenix]|The, um, defendant?|That's... er... Mia Fey?| |646
+[Mia]|Wrong, Wright.|Look, I have to leave.| |760
+[Mia]|I have to go home. I'm...|I'm expecting a delivery.| |760
+[Phoenix]|Aw, c'mon Chief.|There's no need to be|going so soon, is there?|760
+[Mia]|Wright!| | |760
+[Mia]|Listen: the defendant is|the one on trial--your client!| |760
+[Mia]|I mean, that's about as|basic as you can get!| |760
+[Phoenix]|(I've put my foot in it this time!|I've got to relax!)| |646
+[Judge]|Sorry, I couldn't hear your|answer. I'll ask once more:| |608
+[Judge]|Next question:| | |608
+[Judge]|This is a murder trial. Tell me,|what's the victim's name?| |608
+[Phoenix]|(Whew, I know this one! Glad|I read the case report cover|to cover so many times.)|646
+[Tyler]|Again. Sorry.| | |38
+[Phoenix]|(It's... wait... Uh-oh!)| | |798
+[Phoenix]|(No... no way! I forgot!|I'm drawing a total blank|here!)|798
+[Mia]|Phoenix! Are you absolutely|SURE you're up to this?| |760
+[Mia]|You don't even know the|victim's name!?| |760
+[Phoenix]|Oh, the victim! O-Of course|I know the victim's name!| |760
+[Phoenix]|I, um, just forgot.|... Temporarily.| |760
+[Mia]|I think I feel a migraine|coming on.| |760
+[Mia]|Look, the defendant's name|is listed in the Court Record.| |760
+[Mia]|If it was working, you'd type "CR" into the console|to check it at anytime.| |760
+[Mia]|However, Tyler just told you what the answer was.|Please try to remember what he said.|I'm begging you.|760
+[Judge]|Let's hear your answer.|Who is the victim in this case?| |608
+QUESTION
+3|1|2
+1.Mia Fey|2.Cinder Block|3.Cindy Stone|608
+What is the Victim's Name?
+140|141|142|147|148|154
+true
+[Phoenix]|Um... the victim's name|is Cindy Stone.| |646
+[Judge]|Correct.| | |608
+[Phoenix]|Um... Mia Fey?| | |646
+[Mia]|W-W-What!? How can I be|the victim!?| |760
+[Phoenix]|Oh! Right! Sorry! I, er,|it was the first name that|popped into my head, and--|760
+[Mia]|The "CR" command!|Remember to use it|when you are in a pinch.|760
+[Tyler]|*sigh* | | |38
+[Judge]|Let me ask that one again:| | |608
+[Phoenix]|Oh, um, wasn't it Ms. Block?|Ms. Cinder Block?| |646
+[Judge]|The person in question was a|victim of murder, not ill-|conceived naming, Mr. Wright.|608
+[Mia]|Wright?| | |760
+[Mia]|If you forget something, just|enter the "CR" command|to help you remember.|760
+[Tyler]|Stop rubbing it in.| | |38
+[Mia]|A mistake in court|could cost you the case.| |760
+[Judge]|I ask you again:| | |608
+[Judge]|Now, tell me, what|was the cause of death?||608
+[Judge]|She died because she was...?|||608
+QUESTION
+2|1|3
+1.Poisoned|2.Hit with a blunt object|3.Strangled|608
+She died because she was...?
+163|164|165|170|171|174
+true
+[Phoenix]|She was struck once,|by a blunt object.||646
+[Judge]|Correct.|||608
+[Phoenix]|Oh, right! Wasn't she, um,|poisoned by er... poison?||646
+[Judge]|You're asking me!?|||608
+[Phoenix]|Um... Chief! Help me out!|||760
+[Mia]|Check the court record.|The "CR" command...|remember?|760
+[Phoenix]|(Geez. Give a guy a break!)|||760
+[Judge]|Let me ask again.|||608
+[Phoenix]|Right... she was|strangled, wasn't she?||646
+[Mia]|Please tell me that was|you talking to yourself.||760
+[Judge]|If you wish to hang yourself,|Mr. Wright, you're welcome to,|but not inside my courtroom.|608
+[Judge]|I suppose there's nothing to|do but give you another try:||608
+[Judge]|You've answered all my|questions. I see no reason|why we shouldn't proceed.|608
+[Judge]|You seem much more relaxed,|Mr. Wright. Good for you.||608
+[Phoenix]|Thank you, Your Honor.|(Because I don't FEEL|relaxed, that's for sure.)|646
+[Judge]|Well, then...|||608
+[Judge]|First, a question for the|prosecution. Mr. Payne?||608
+[Payne]|Yes, Your Honor?|||722
+[Judge]|As Mr. Wright just told us,|the victim was struck with|a blunt dfasdfevaetrbvyfdgfgasf|608
+[Tyler]|Okay. I'm Done.|||38
+[Tyler]|If I want to turn this in as my final|the story has to take a backseat|to code that functions the way I need it to.|38
+[Tyler]|We've seen the questions,|you've been reading the text boxes,|and the ascii art has been generated appropriately.|38
+[Tyler]|Let us now give you a CHOICE.|||38
+CHOICE
+1|2|3
+1.Okay!|2.No!|3.What!?|38
+Make a decision, NOW!
+192|193|194|195|196|197
+true
+[Tyler]|Well, Good.|I'm glad that you comply.||38
+[Tyler]|I'll remember you said that.|||38
+[Tyler]|But you just-||Nevermind.|38
+[Tyler]|I'll remember you said that.|||38
+[Tyler]|...|||38
+[Tyler]|I'll remember you said that.|||38
+[Tyler]|I'll now prove that I can remember|what you just chose.|Your CHOICE creates story branches like a TREE|38
+CHOICETREE
+201|202|203|204|205|206
+[Tyler]|You knew what you were doing.|You chose choice 1,|which was "Okay!"|38
+[Tyler]|Nice work BTW.|||38
+[Tyler]|You refused to comply, but complied in the process.|You chose choice 2,|which was "No!"|38
+[Tyler]|Yeah, didn't really work out for you.|did it?||38
+[Tyler]|You had no idea what was going on.|You chose choice 3,|which was "What!?"|38
+[Tyler]|I thought I was pretty clear...|||38
+[Tyler]|Now to include a variable of|absolute randomness.||38
+RANDOM
+CHOICETREE
+211|212|213|214|215|216
+[Tyler]|Kumquats, mashed potatoes, corn flakes|gerbil, monkey, giraffe| gear, piston, lever.|38
+[Tyler]|abcdefghijklmnopqrstuvwxyz|12345678901234567890123456|thequickbrownfoxjumpedoverthelazydog.|38
+[Tyler]|AAAAAAAAAAAAAAAAAAAAAAAAAA|AAAAAAAAAAAAAAAAAAAAAAAAAA|AAAAAAAAAAAAAAAAAAAAAAAAAA|38
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA|AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA|AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA|AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA|837
+[Tyler]|Aw, what a shame. You didn't get Random options 1 or 2.|They were real doozies I tell you what.|This one isn't as fun...|38
+[Tyler]|Yup.|||38
+[Tyler]|That was random.|||38
+[Tyler]|The previous questions couldn't kill you.|||38
+[Tyler]|They never take HP from you|when you are wrong.||38
+[Tyler]|This next one will.|It'll be simple.|Promise.|38
+QUESTION
+1|2|3
+1.Correct|2.Wrong A|3.Wrong B|114
+Test your health.
+227|228|229|230|231|232
+false
+[Tyler]|Or you could just pick the right|answer and skip the whole test.||38
+[Tyler]|whatevs.||(I don't actually say whatevs. EVER.)|38
+[Tyler]|Wrong answer A selected.|||38
+[Tyler]|Penalty loop Alpha initiated|||38
+[Tyler]|Wrong answer B selected.|||38
+[Tyler]|Penalty loop Beta initiated|||38
+[Tyler]|While it isn't EXACTLY what I wanted it to be,|It could still be implemented as an interesting story telling game type thing.||38
+[Tyler]|If I deceded to make a different story with it, |I could make it look like it all worked.||38
+[Tyler]|But that requires a spot of creativity|of the storytelling variety. Something that finals|week has drained out of me.|38
+[Tyler]|Maybe by the time you get this, I'll have a file switching protocall ready.||Maybe...|38
+[Tyler]|If not, I hope that this odd thing suffices to show off|the mechanics of my game.||38
+[Tyler]|Goodbye!|||38

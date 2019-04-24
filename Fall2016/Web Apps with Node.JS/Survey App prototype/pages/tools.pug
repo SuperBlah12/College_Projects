@@ -1,0 +1,13 @@
+html
+	body
+		a(href="/logout") LOGOUT 
+			a(href="/survey/1") SURVEY
+		h1 Admin Toolbar
+		h2 Users
+		p
+			- for(var i=0; i < users.length; i++) {
+			-	var name = users[i];
+			-	var link = "tools/user/" + users[i];
+				a(href=link)=name
+				br
+			-}

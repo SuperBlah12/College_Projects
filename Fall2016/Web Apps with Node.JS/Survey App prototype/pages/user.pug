@@ -1,0 +1,17 @@
+html
+	body
+		a(href="/logout") LOGOUT   
+			a(href="/tools/delete/"+name) DELETE   
+				a(href="/tools") RETURN   
+		-var header = name + " Matches"
+		h1=header
+		h2 Your Answers
+		p
+			- for(var i=0; i < surv.length; i++) {
+			-	var num = i + 1;
+			- 	var item = num + ". " + surv[i].Question
+			-	var ans = surv[i].Answers[a[i]];
+				p=item
+					li=ans
+			-}
+				

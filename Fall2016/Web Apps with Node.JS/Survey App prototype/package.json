@@ -1,0 +1,17 @@
+{
+  "name": "tjcole2_lab4",
+  "version": "1.0.0",
+  "description": "Lab 4 for ASU's SER 421 class, by Tyler Cole",
+  "main": "lab4.js",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.14.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,29 @@
+[
+	{
+		"Question" : "What is your name?",
+		"Answers" : [
+			"Lancelot",
+			"Arthur",
+			"Guineviere"
+		]
+	},{
+		"Question" : "What is your quest?",
+		"Answers" : [
+			"To find the Grail",
+			"To slay the rabbit",
+			"To find the Knights who say Ni!"
+		]
+	},{
+		"Question" : "What is your favorite color?",
+		"Answers" : [
+			"Blue",
+			"Red",
+			"I don't know"
+		]
+	},{
+		"Question" : "What is the capital of Assyria?",
+		"Answers" : [
+			"I don't know that!"
+		]
+	}
+]

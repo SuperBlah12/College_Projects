@@ -1,0 +1,153 @@
+==|SuperBlah12's|ASCII Visual Novel Engine|Intro Test Episode!   (PRESS ENTER TO CONT.)|0
+==|Prepare for words to|be flung into your|face.|38
+[SmileGuy]|Greetings player!|||76
+[SmileGuy]|Welcome to the SuperBlah12|Game app program thing!||76
+[SmileGuy]|Today, you will be asked a series of questions,|make a couple of choices, and some other third|thing.|114
+[SmileGuy]|Then, we will display an interesting|(maybe) story based on all of that.||76
+[SmileGuy]|first would you like to hear a short story|on how this engine was made?||380
+CHOICE
+1|2
+1. Yes|2. No||38
+Hear my story?
+14|27|28|30
+true
+[SmileGuy]|Alright then!|Here's the gist of it!||76
+[SmileGuy]|There is a game called: |Phoenix Wright|Ace Attorney|532
+[SmileGuy]|It is a very fun game where you|solve a murder mystery.||76
+[SmileGuy]|It is displayed to you in a very|linear comic book story format.||76
+[SmileGuy]|You spend a good portion of the|game reading the story as it unfolds.||76
+[SmileGuy]|Every once and a while you are given|an oportunity to make a desicion|answer a question.|76
+[SmileGuy]|The story will change around that decision.|||76
+[SmileGuy]|This genre of game is called a|"visual novel"|which is a very apt name.|76
+[SmileGuy]|Remove the decision making|parts and you'll have a graphic novel.||114
+[SmileGuy]|Ace Attorney has a couple of other|features that make it unique...||76
+[SmileGuy]|However, due to time constraints|and ability constraints...||152
+[SmileGuy]|These unique features could not|be implemented.||152
+[SmileGuy]|Oh well!|||380
+[SmileGuy]|Thanks for humoring me!|I'll remember that!||380
+[SmileGuy]|Oh. Okay...|||152
+[SmileGuy]|I didn't want to tell you anyway.|||342
+[SmileGuy]|I'm gonna remember this.|You just wait.||342
+[SmileGuy]|SO!|||380
+[SmileGuy]|That was a choice right there!|||76
+[SmileGuy]|See...|||76
+[SmileGuy]|While I could have written an interesting|story that fully implemented|this engine,|114
+[SmileGuy]|I've instead opted to type this|Mundane Allegory Pretending to be Story||152
+[SmileGuy]|Yes. That is shortened to MAPS|Which, coincidentaly is also something else.||76
+[SmileGuy]|Here comes a question.|||76
+[SmileGuy]|If you get it wrong something|bad will happen.||342
+[SmileGuy]|Here it comes:|||76
+QUESTION
+2|1|3
+1. Helpful Google Product|2. SPAM Backwards|3. EVIL LETTERS!|114
+What am I refrencing?
+46|47|48|51|52|56
+false
+[SmileGuy]|Yup. SPAM is often said to stand for:|Stuff Posing As Meat||304
+[SmileGuy]|Which is similar to my silly description.|||304
+[SmileGuy]|Nope. Not referring to Google Maps.|||152
+[SmileGuy]|Sorry. But you just lost some HP.|||152
+[SmileGuy]|#DealWithIt|||190
+[ROBOT]|WRONG ANSWER ALPHA ACTIVE|INITIATING TIME LOOP||228
+[SmileGuy]|Oh come on.|||114
+[SmileGuy]|They aren't that ba-|||114
+[SmileGuy]|GOOD LORD!|||266
+[SmileGuy]|LOOK AT WHAT THEY'VE DONE|TO YOUR HEALTH!||266
+[ROBOT]|WRONG ANSWER BETA ACTIVE|INITIATING TIME LOOP||228
+[SmileGuy]|So that was a question.|||76
+[SmileGuy]|They can hurt you if you chose to do so.|||76
+[SmileGuy]|You can also make them harmless.|||76
+[SmileGuy]|You still need to answer|them correctly tho.||114
+QUESTION
+1|2|3
+1. Correct|2. Wrong A|3. Wrong B|380
+Pick a wrong answer and see!
+67|69|70|72|73|75
+true
+[ROBOT]|CORRECT ANSWER ACTIVE|||228
+[ROBOT]|NO HP SUBTRACTED|||228
+[ROBOT]|LOOP BROKEN|RESTORING TIMELINE||228
+[ROBOT]|WRONG ANSWER ALPHA ACTIVE|||228
+[ROBOT]|NO HP SUBTRACTED|||228
+[ROBOT]|INITATING TIME LOOP|||228
+[ROBOT]|WRONG ANSWER BETA ACTIVE|||228
+[ROBOT]|NO HP SUBTRACTED|||228
+[ROBOT]|INITATING TIME LOOP|||228
+[SmileGuy]|That makes like,|two of three features.||76
+[SmileGuy]|Or is it four?|||114
+[SmileGuy]|Three?|||114
+[SmileGuy]|No. It's two.|||114
+[SmileGuy]|Time to implement the second|half of the two features!||380
+CHOICETREE
+83|85|86|100
+[SmileGuy]|You wanted to listen to|my story about how I made this.||76
+[SmileGuy]|Had you said no,|I would have held you captive|and forced you to listen to it now.|76
+[SmileGuy]|But you said yes, thus I won't.|||380
+[SmileGuy]|You didn't want to hear my story.|||342
+[SmileGuy]|NOW YOU WILL BE FORCED TO LISTEN.|||342
+[SmileGuy]|Alright then!|Here's the gist of it!||76
+[SmileGuy]|There is a game called: |Phoenix Wright|Ace Attorney|532
+[SmileGuy]|It is a very fun game where you|solve a murder mystery.||76
+[SmileGuy]|It is displayed to you in a very|linear comic book story format.||76
+[SmileGuy]|You spend a good portion of the|game reading the story as it unfolds.||76
+[SmileGuy]|Every once and a while you are given|an oportunity to make a desicion|answer a question.|76
+[SmileGuy]|The story will change around that decision.|||76
+[SmileGuy]|This genre of game is called a|"visual novel"|which is a very apt name.|76
+[SmileGuy]|Remove the decision making|parts and you'll have a graphic novel.||114
+[SmileGuy]|Ace Attorney has a couple of other|features that make it unique...||76
+[SmileGuy]|However, due to time constraints|and ability constraints...||152
+[SmileGuy]|These unique features could not|be implemented.||152
+[SmileGuy]|Oh well!|||380
+[SmileGuy]|Tada!|||380
+[SmileGuy]|Told you I'd remember!|||76
+[SmileGuy]|Oh! there's another feature!|||266
+[SmileGuy]|Hit "S", hit enter, hit "Q",|hit enter and then reopen the program!||76
+[SmileGuy]|Tada!|You've come back right|where you've started.|76
+[SmileGuy]|I even remember what|choice you've made still!||380
+CHOICETREE
+109|110|111|112
+[SmileGuy]|You Listened.|||152
+[SmileGuy]|Yup.|||152
+[SmileGuy]|You didn't listen.|||152
+[SmileGuy]|Nope.|||152
+[SmileGuy]|See!|||76
+[SmileGuy]|Magic.|||76
+[SmileGuy]|Unfortunately, I can only act upon|the last choice that you made.||114
+[SmileGuy]|If another choice is made|I'll be incapable of reacting|to the previous one.|114
+[SmileGuy]|Now to show you an implementation|of randomnessity.||76
+[SmileGuy]|First I'll have ROBOT|generate a random choice.||76
+[ROBOT]|BEEP BOOP||INITIATING RANDOMNESS|228
+RANDOM
+[ROBOT]|CHOICE GENERATED|TERMINATING RANDOMNESS||228
+[SmileGuy]|Now we'll see where the program takes us.|||76
+CHOICETREE
+125|126|127|128|129|130
+[SmileGuy]|RANDOM GENERATED CHOICE 1 of 3|||418
+[SmileGuy]|FLYING POTATO.|||418
+[SmileGuy]|RANDOM GENERATED CHOICE 2 of 3|||456
+[SmileGuy]|SQUIRREL.|||456
+[SmileGuy]|RANDOM GENERATED CHOICE 3 of 3|||494
+[SmileGuy]|CLOWN SHARK.|||494
+[SmileGuy]|Well, that was random.|||114
+[SmileGuy]|I'm sure that could be used in an interesting way.|||76
+[SmileGuy]|That was not one of them.|||152
+[SmileGuy]|I'd also like to note|I've completely forgotten|the first choice|152
+[SmileGuy]|I don't know if you listened or not at this point.|||152
+[SmileGuy]|Alright.|||76
+[SmileGuy]|Thats actually three features isn't it?|||76
+[SmileGuy]|Neato.|||76
+[SmileGuy]|Welp...|||152
+[SmileGuy]|I'll admit the engine isn't all|sunshine and rainbows.||152
+[SmileGuy]|A short list of bugs:|||152
+[SmileGuy]|Cannot save in a Question/Choice|||38
+[SmileGuy]|Cannoit save in a dialogue tree|of any kind.||38
+[SmileGuy]|ASCII art is a pin to make.||Not a bug, just an observation.|38
+[SmileGuy]|Many thanks to|http://www.glassgiant.com/ascii/||38
+[SmileGuy]|Syntax of data files|difficult and confusing.||38
+[SmileGuy]|The list goes on.|||38
+[SmileGuy]|Sigh...|||38
+[SmileGuy]|That's about it really.|||114
+[SmileGuy]|Very simple ASCII art|visual novel engine.||76
+[SmileGuy]|I'm very happy with it.||Despite its bugs.|380
+[SmileGuy]|Go play a different game now.|||76
+[SmileGuy]|Bye!|||380

@@ -1,0 +1,106 @@
+#include <iostream>
+#include <vector>
+#include <stdlib.h>
+#include <string>
+#include <sstream>
+#include <jsonrpccpp/client/connectors/httpclient.h>
+#include "MediaDescription.h"
+#include "mediastub.h"
+
+using namespace jsonrpc;
+using namespace std;
+
+int main(int argc, char*argv[]) {
+	string host = "http://127.0.0.1:8080";
+	if(argc>1){
+		host = string(argv[1]);
+	}
+	HttpClient httpclient(host);
+	mediastub mc(httpclient);
+	cout << "Connecting to host " << host << endl;
+	try {
+		string inLine;
+		cout << "Connected to: "  << mc.serviceInfo() << endl;
+		while(true){
+			std::cout << "Enter end or {(A)dd|(R)emove|(G)et|(L)ibrary|(V)ideos|(M)usic} >";
+			std::getline (std::cin, inLine);
+			if(inLine.size() == 1) {
+				if(inLine == "a" || inLine == "A"){ //Add
+					int iType = 42;
+					string title;
+					string author;
+					string album;
+					string genre;
+					string filename;
+					string sType = "w";
+					cout << "Enter media type {(V)ideo|(M)usic} >";
+					if(sType == "v" || sType == "V")
+						iType = 1;
+					else if (sType == "m" || sType == "M")
+						iType = 0;
+					cout << "Enter Media Name >";
+					std::getline (std::cin, title);
+					cout << "Enter Author >";
+					std::getline (std::cin, author);
+					cout << "Enter Album >";
+					std::getline (std::cin, album);
+					cout << "Enter Genre >";
+					std::getline (std::cin, genre);
+					cout << "Enter Filename >";
+					std::getline (std::cin, filename);
+					bool win = mc.addClip(album, author, filename, genre, iType, title);
+					if (!win)
+						cout << "Someting went wrong";
+				} 
+				else if(inLine == "r" || inLine == "R") { //Remove
+					string title;
+					cout << "Enter the title to remove. >";
+					std::getline (std::cin, title);
+					bool win = mc.removeClip(title);
+					if (!win)
+						cout << "Someting went wrong.";
+				} 
+				else if(inLine == "g" || inLine == "G") { //Get
+					string title;
+					cout << "Enter the title to get. >";
+					std::getline (std::cin, title);
+					Json::Value jsonTitle = mc.getClip(title);
+					MediaDescription win = MediaDescription(jsonTitle);
+				} 
+				/*else if(inLine == "l" || inLine == "L") { //Library
+					Json::Value libJson = mc.getTitles();
+					vector<string> library; 					
+                                        for(int i = 0; i < libJson.size(); i++)					
+                                                library.push_back(libJson.get(i,"").asString());
+					for(int i = 0; i < library.size(); i++)
+						cout << library[i] + "|";
+				} 
+				else if(inLine == "v" || inLine == "V") { //Videos
+					Json::Value vidJson = mc.getVideos();
+					vector<string> video; 					
+                                        for(int i = 0; i < vidJson.size(); i++)					
+                                                video.push_back(vidJson.get(i,"").asString());
+					for(int i = 0; i < video.size(); i++)
+						cout << video[i] + "|";
+				} */
+				else if(inLine == "m" || inLine == "M") { //Music
+					Json::Value root = mc.getMusic();
+					Json::Value musJson= root["music"];
+                                        vector<string> music; 					
+                                        for(int i = 0; i < musJson.size(); i++)					
+                                                music.push_back(musJson[i].asString());
+					for(int i = 0; i < music.size(); i++)
+						cout << music[i] + "|";					
+				}
+				else if(inLine =="end")
+					break;
+				else 
+					cout << "Invalid Entry";		
+			}
+			
+		}
+	}
+	catch (JsonRpcException e) {
+		cerr << e.what() << endl;
+	}
+}

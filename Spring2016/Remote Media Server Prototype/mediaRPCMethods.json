@@ -1,0 +1,54 @@
+[
+
+    {	
+        "method": "serviceInfo",
+        "params": [ ],
+        "returns": "I am the media service."
+    },
+    {	
+        "method": "addClip",
+        "params": { "iType": 0,
+                    "title": "title",
+                    "author": "author",
+                    "album": "album",
+                    "genre": "genre",
+                    "filename": "filename"
+                  },
+        "returns": true
+    },
+    {	
+        "method": "removeClip",
+        "params": ["movie"],
+        "returns": true
+    },
+    {	
+        "method": "getClip",
+        "params": ["movie"],
+        "returns": {"movie":
+	             {
+		      "title": "movie",
+		      "mediaType": 1,
+		      "author": "guy",
+		      "album": "",
+		      "genre": "yes",
+		      "filename": "movie.mov"
+	             }
+                   }
+    },
+    {	
+        "method": "getTitles",
+        "returns": {"titles": ["Song", "Song2","Vid1", "Vid2"]}
+    },
+    {	
+        "method": "getVideos",
+        "returns": {"video": ["Vid1", "Vid2"]}
+    },
+    {	
+        "method": "getMusic",
+        "returns": {"music": ["Song", "Song2"]}
+    },
+    {
+        "method": "saveJson",
+        "returns": true
+    }
+]

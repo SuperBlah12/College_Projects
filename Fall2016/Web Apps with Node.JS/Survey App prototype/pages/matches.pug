@@ -1,0 +1,11 @@
+html
+	body
+		a(href="/logout") LOGOUT  
+			a(href="/survey/1") SURVEY
+		-var header = name + " Matches"
+		-var mat = [];
+		h1=header
+		h2
+			- for(var i = 0; i < list.length; i++) {
+				li=(u[list[i].num].name + ': ' + list[i].match + '%')
+			- }

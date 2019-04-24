@@ -1,0 +1,18 @@
+html
+	body
+		-var q = "" + num + ". " + qst;
+		a(href="/logout") LOGOUT
+		h1=q
+		form(method="post")
+			- for(var i=0; i < ans.length; i++) {
+				-if(chk !== undefined && parseInt(chk) == i) {
+					input(type="radio", name="ans", value=i, checked)
+					text=ans[i]
+					br
+				-} else {
+					input(type="radio", name="ans", value=i)
+					text=ans[i]
+					br
+			- }}
+			br
+			input(type="submit")

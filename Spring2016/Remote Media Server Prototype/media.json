@@ -1,0 +1,38 @@
+{
+  "FAKE MOVIE" : 
+  {
+    "album" : "",
+    "author" : "FAKE ARTIST",
+    "filename" : "FAKE.mp4",
+    "genre" : "FAKE GENRE",
+    "mediaType" : 1,
+    "title" : "FAKE MOVIE"
+  },
+  "FAKE SONG" : 
+  {
+    "album" : "FAKE ALBUM",
+    "author" : "FAKE ARTIST",
+    "filename" : "FAKE.mp3",
+    "genre" : "FAKE GENRE",
+    "mediaType" : 0,
+    "title" : "FAKE SONG"
+  },
+  "Machu Picchu Time Lapse" : 
+  {
+    "album" : "",
+    "author" : "Machu Picchu",
+    "filename" : "MachuPicchuTimelapseVimeo.mp4",
+    "genre" : "Timelapse",
+    "mediaType" : 1,
+    "title" : "Machu Picchu Time Lapse"
+  },
+  "Swan Song" : 
+  {
+    "album" : "All Grown Up",
+    "author" : "Paper Navy",
+    "filename" : "PaperNavySwanSong.mp3",
+    "genre" : "Folk Pop",
+    "mediaType" : 0,
+    "title" : "Swan Song"
+  }
+}
